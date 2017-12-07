@@ -1,0 +1,181 @@
+html,body {
+	height:100%;
+	background-image: url(../images/spiration_dark.png);
+}
+a {
+	color:inherit;
+	font-size:140%;
+}
+
+a:hover {
+	color:inherit;
+}
+
+h2 {
+	font-family: 'Bungee', cursive;
+	font-size:215%;
+	margin:auto;
+	color:#385623;
+	margin-top:-7px;
+	text-align: left;
+	padding-bottom:7px;
+	border-bottom: 3px solid #555;
+	margin-bottom:10px;
+}
+
+h3 {
+	font-family: 'Bungee', cursive;
+	font-size: 150%;
+	padding-bottom: 10px;
+	margin:auto;
+	color:#385623;
+	text-align: center;
+	border-bottom: 3px solid #555;
+	margin-bottom:7px;
+}
+
+h4 {
+	font-family: 'Bungee', cursive;
+ 	position:absolute;
+ 	width:200px;
+	padding:8px;
+	background: #385623;
+	color:#ccc;
+	text-align:center;
+	font-size: 120%;
+	bottom:0;
+}
+
+label,input,.submitbutton {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+label {
+	color:#385623;
+}
+
+textarea {
+	width:100%;
+	height:200px;
+}
+
+.submitbutton {
+	background: #385623;
+	color:#ccc;
+	margin-bottom:0;
+}
+
+.panel{
+	width:100%;
+	background:#ccc;
+	
+}
+
+.navbar {
+	border:0;
+	margin-bottom:0;
+}
+
+.navbar-default {
+	background:#ccc;
+}
+
+.navbar-brand {
+	font-family: 'Bungee', cursive;
+    color:#ccc !important; 
+	font-size:300%;
+}
+
+.mini-brand {
+	font-family: 'Bungee', cursive;
+	font-size:130%;
+}
+
+.navbar-header {
+	padding:1.5%;
+	padding-bottom:4%;
+	background:#385623;
+	color:#ccc;
+}
+
+.container-grey {
+	padding-top:3%;
+	padding-bottom:0;
+	background:#ccc;
+	margin-right:0;
+	margin-left:0;
+	width:100%;
+}
+
+.container-pat {
+	background-image: inherit;
+	padding-top:3%;
+	padding-bottom:80px;
+	margin-right:0;
+	margin-left:0;
+	width:100%;
+}
+
+.col-lg-8,.col-lg-4 {
+	padding-left:0;
+	padding-right:0;
+}
+
+.col-md-4,.col-lg-4 {
+	padding-left:5%;
+}
+
+
+.row {
+	margin-left:0;
+	margin-right:0;
+}
+
+#cover {
+	float:left;
+	height:250px;
+	width:180px;
+	margin-right:25px;
+}
+
+#hangman,#rpg,#triv,#info,#rps {
+	position:relative;
+	height:240px;
+	width:200px;
+	margin-bottom:10%;
+}
+
+#hangman{
+	background-image:url(../images/hangman.jpeg);
+}
+
+#rpg {
+	background-image:url(../images/rollplay.jpeg);
+}
+
+#triv {
+	background-image:url(../images/trivia.jpg);
+}
+
+#rps {
+	background-image:url(../images/rpscissors.jpg);
+}
+
+#info {
+    background-image:url(../images/info.jpg);
+}
+
+footer {
+	border-top: 10px solid #385623;
+	background:#666;
+	height:70px;
+	width:100%;
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	text-align:center;
+	color:#ccc;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	padding-top:3%;
+}
